@@ -1,4 +1,4 @@
-#COVID19 Simulation
+# COVID19 Simulation
 An [ABM](https://en.wikipedia.org/wiki/Agent-based_model) using [GAMA-Platform](https://gama-platform.github.io/) aims at simulating people of Al-Mubarraz city behavior under two scenarios; namely "compliance" and noncompliance" with the new government directions to slow down the spread of COVID19.
 
 ## Objective
@@ -24,8 +24,8 @@ I have made several simplifying assumptions about the simulating environment and
 - The step size of the simulation is 60 minutes i.e agents are simulated every hour in the timeline.
 
 #### Population
--`nb_people`: the population size is set to `1000`
--`nb_infected_init` the initially infected people is set to `10` which only accounts for 1% of the population.
+- `nb_people`: the population size is set to `1000`
+- `nb_infected_init` the initially infected people is set to `10` which only accounts for 1% of the population.
 
 #### Infection, Recovery and health assumptions.
 - For simplicity, I have assumed that the mortality rate is zero, meaning all infected people will get recovered eventually.
